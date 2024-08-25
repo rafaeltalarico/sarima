@@ -1,0 +1,57 @@
+{
+    "timestamp": 1724623339278,
+    "date_time": "2024-08-25 19:02",
+    "city": "Antonia do Norte",
+    "prediction_total": 0,
+    "occurred_total": 0,
+    "months": [
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        },
+        {
+            "fireOccurrences": 0,
+            "firesPredicted": 0
+        }
+    ]
+}
