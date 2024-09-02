@@ -31,7 +31,7 @@ class DataAnalyzes:
         for year in range(currentYear - VERIFY_YEARS_COUNT, currentYear + 1):
             directory_path = f'filtered/{year}'
             if not os.path.exists(directory_path):
-                print(f'Diretório {directory_path} não encontrado. Criando diretório...')
+                print(f'{directory_path}')
                 os.makedirs(directory_path)
         
             for fileName in os.listdir(directory_path): 
@@ -172,8 +172,8 @@ class DataAnalyzes:
             return 0
 
         try:
-            p, d, q = 1, 1, 1  # Parâmetros ARIMA
-            P, D, Q, s = 1, 1, 1, 12  # Parâmetros Sazonais
+            p, d, q = 1, 1, 1  #Parâmetros ARIMA
+            P, D, Q, s = 1, 1, 1, 12  #Parâmetros Sazonais (SARIMA)
             model = SARIMAX(sequence, order=(p, d, q), seasonal_order=(P, D, Q, s))
 
             model_fit = model.fit(disp=False)
